@@ -1,0 +1,9 @@
+.main__dice-container{
+    display: grid;
+    grid-template-columns: repeat(5, 130px);
+    gap: 40px;
+    width: 100%;
+    place-content: center;
+    width: 60%;
+    margin-inline: auto;
+}

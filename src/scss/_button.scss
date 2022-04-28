@@ -1,0 +1,18 @@
+.main__button{
+    width: 320px;
+    margin-inline: auto;
+    padding: 20px 30px;
+    font-size: 32px;
+    background-color: #5035FF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    outline: none;
+    &:active{
+        transform: scale(0.97);
+        background-color: #5055FF;
+        box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.5);
+    }
+}
