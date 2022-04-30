@@ -2,7 +2,12 @@ import React from 'react'
 
 function Button(props) {
   return (
-    <button className='main__button' onClick={props.updateDiceNumber}>Roll</button>
+    <button 
+      className='main__button' 
+      onClick={props.tenzies ? props.restarGame : props.updateDiceNumber}
+    >
+      {props.tenzies ? 'Restart' : 'Roll'}
+    </button>
   )
 }
 

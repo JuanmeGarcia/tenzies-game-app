@@ -6,4 +6,8 @@
     font-size: 50px;
     display: grid;
     place-content: center;
+    cursor: pointer;
+    &--active{
+        background-color: #59ec91
+    }
 }
